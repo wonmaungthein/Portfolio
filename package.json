@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my portfolio draft. I will be adding different styles step by step to make my profile looks good.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "create-react-app": "^1.5.2",
+    "express": "^4.16.3",
+    "latest-version": "^3.1.0",
+    "material-ui": "^1.0.0-beta.32"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonmaungthein/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonmaungthein/Portfolio/issues"
+  },
+  "homepage": "https://github.com/wonmaungthein/Portfolio#readme"
+}
