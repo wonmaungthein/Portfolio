@@ -33,7 +33,8 @@ body {
 }
 
 .logo {
-  height: 120px;
+  height: 100px;
+  width: 100px;
   border-radius: 100%;
 }
 
@@ -103,4 +104,67 @@ footer .container .col-sm {
   size: 24px;
   height: 5rem;
   border: 2px solid black;
+}
+
+/* //CSS from Wes */
+
+.close {
+  background: none;
+  color: rgb(12, 11, 11);
+  border: 0;
+  /* border: 3px solid yellow; */
+}
+
+.item__overlay {
+  background: rgb(167, 67, 67);
+  grid-column: 1/ -1;
+  grid-row: 1/-1;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  transform: translateY(100%);
+  transition: 0.2s;
+  border: 3px solid yellow;
+}
+
+.item__overlay button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  background-color: yellow;
+  padding: 5px;
+  /* border: 3px solid yellow; */
+}
+
+.item:hover .item__overlay {
+  transform: translate(0);
+}
+
+.overlay {
+  position: fixed;
+  background: rgba(19, 48, 87, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 2;
+}
+
+.overlay.open {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.overlay-inner {
+  background: white;
+  width: 700px;
+  padding: 20px;
+}
+
+.overlay img {
+  width: 100%;
 }
