@@ -96,3 +96,11 @@ footer .container .col-sm {
   margin-top: 20px;
   color: white;
 }
+
+#parent {
+  background: yellow;
+  color: blue;
+  size: 24px;
+  height: 5rem;
+  border: 2px solid black;
+}

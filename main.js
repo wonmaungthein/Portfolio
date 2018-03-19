@@ -8,12 +8,23 @@
  */
 }
 
+// function myFunction() {
+//   var CodeYourFuture = document.querySelector("#CodeYourFuture");
+//   if (CodeYourFuture.style.display === "none") {
+//     CodeYourFuture.style.display = "block";
+//   } else {
+//     CodeYourFuture.style.display = "none";
+//   }
+// }
+
+var CodeYourFuture = document.querySelector(".codeYourFuture");
+
 function myFunction() {
-  var x = document.getElementById("CodeYourFuture");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  var CodeYourFuture = document.querySelector("#CodeYourFuture");
+  if (CodeYourFuture.style.display === "none") {
+    CodeYourFuture.style.display = "block";
   } else {
-    x.style.display = "none";
+    CodeYourFuture.style.display = "none";
   }
 }
 
@@ -25,12 +36,3 @@ function myFunction() {
 //     x.style.display = "none";
 //   }
 // }
-
-// function main() {
-//   $("skillset").hide();
-//   $("projects-button").on("click", function() {
-//     $(".projects").toggle();
-//   });
-// }
-
-// $(document).ready(main);
