@@ -1,27 +1,16 @@
 .aboutMe {
-  /* border: solid 2px blueviolet; */
   text-align: center;
   color: white;
-  /* margin-left: 5%; */
-  /* margin-right: 10%; */
-  margin-top: 3%;
-  /* padding-bottom: 1%; */
+  margin-top: 7%;
   padding-left: 2%;
   padding-right: 2%;
   width: 100%;
-  height: 30%;
-  /* border: solid 3px greenyellow; */
-
-  /*background-color: white;*/
+  /* border: slateblue solid 3px; */
 }
-/* 
-.text-center {
-	
-} */
 
-h3 {
-  text-align: center;
-  margin-bottom: 5%;
+.text-center {
+  color: white;
+  justify-content: center;
 }
 
 body {
@@ -38,44 +27,24 @@ body {
   border-radius: 100%;
 }
 
-.section {
-  /* border: solid 3px greenyellow; */
-}
-
-.container {
-  /* border: solid 3px blue; */
-}
-
 .col-sm {
-  /* border: solid 2px yellowgreen; */
-  /* padding-left: 8rem; */
   color: white;
 }
 
 .btn {
-  /* border: none; */
-  /* border-radius: 20%; */
   height: 120px;
 }
 
-.first-section {
-  /* background-color: steelblue; */
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-.second-section {
-  /* background-color: rgb(44, 13, 182); */
-  /* margin-top: 2%; */
-  margin-bottom: 2%;
-  padding-bottom: 5%;
-}
-
-.third-section {
-  /* background-color: rgb(223, 20, 37); */
-  /* margin-top: 2%; */
-  margin-bottom: 2%;
-  padding-bottom: 5%;
+.first-section,
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section,
+.sixth-section,
+.seventh-section {
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  /* background: burlywood; */
 }
 
 .row {
@@ -84,8 +53,19 @@ body {
   padding-bottom: 1%;
 }
 
+.container {
+  /* border: solid gold 2px; */
+}
 footer .container .col-sm {
-  border: solid 1px whitesmoke;
+  /* border: solid 1px whitesmoke; */
+}
+
+footer {
+  /* border: orangered 2px solid; */
+  /* background: rgb(245, 3, 3); */
+  margin-top: 2%;
+  padding-bottom: 3%;
+  /* background-color: rgb(238, 137, 22); */
 }
 
 #CodeYourFuture,
@@ -167,4 +147,80 @@ footer .container .col-sm {
 
 .overlay img {
   width: 100%;
+}
+
+.navbar-default {
+  /* border: 2px solid limegreen; */
+  justify-content: center;
+}
+
+#navbarSupportedContent {
+  /* border: tomato 2px solid; */
+  align-items: center;
+  justify-content: center;
+}
+
+#navbarSupportedContent .btn {
+  /* width: 150px; */
+  height: 60px;
+}
+
+.fixed-top {
+  background-color: rgb(88, 30, 3);
+  /* border: yellow 2px solid; */
+  /* justify-content: right; */
+  /* display: flex; */
+}
+
+.socialIcon {
+  /* border: yellow solid 2px; */
+  padding: 20px;
+  /* display: inline; */
+}
+
+.second-section {
+  background-color: rgb(44, 13, 182);
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  /* border: solid blue; */
+}
+
+.third-section {
+  background-color: rgb(223, 20, 37);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 5%;
+}
+
+.fourth-section {
+  /* border: yellow solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  background-color: peru;
+}
+
+.fifth-section {
+  /* border: blue solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  background-color: orangered;
+}
+
+.sixth-section {
+  /* border: yellowgreen solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  background-color: goldenrod;
+}
+
+.seventh-section {
+  /* border: salmon 2px solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  background-color: rgb(38, 78, 206);
 }

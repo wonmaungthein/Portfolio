@@ -7,3 +7,7 @@ function myFunction() {
     CodeYourFuture.style.display = "none";
   }
 }
+
+$("#myModal").on("shown.bs.modal", function() {
+  $("#myInput").trigger("focus");
+});

@@ -8,13 +8,40 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="bootstrap-social.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+	 crossorigin="anonymous">
 	<title>My Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
+	<nav class="navbar navbar-default fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-light ">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<button type="button" class="btn btn-outline-light btn-lg">About</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Education</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Work Experience</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Achievement</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Projects</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Volunteering Experience</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Additional Information</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Contact</button>
+			</div>
+		</nav>
+	</nav>
+	<div class="container">
+	</div>
+
 	<div class="aboutMe">
 		<img class="logo" src="me.jpg" alt "myphoto"/>
 		<h2>Won Maung Thein</h2>
@@ -67,22 +94,37 @@
 		</div>
 	</div>
 	<div class=" container second-section">
-		<div class="row">
-			<div class="aboutMe">
-				<h3>TECHNOLOGY RELATED </br>Education, Qualification and Achievement</h3>
+		<div class="row text-center">
+			<div class="col-sm">
+				<h3>EDUCATION</h3>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row ">
 			<div class="col-sm">
-				<button type="button" class="btn btn-lg btn-outline-light btn-block codeYourFuture" onclick="myFunction()">CodeYourFuture</button>
+				<button type="button" class="btn btn-lg btn-outline-light btn-block">University of Edinburgh
+					<br>
+					<em>
+						Humanities and Social Science(BA)
+					</em>
+				</button>
 			</div>
-
 			<div class="col-sm">
-				<button type="button" class="btn btn-outline-light btn-lg btn-block">Udacity (Scholarship)</button>
+				<button type="button" class="btn btn-lg btn-outline-light btn-block codeYourFuture" onclick="myFunction()">CodeYourFuture
+					<br>
+					<em>
+						Full Stack Web-development </em>
+				</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Newbattle Abbey College
+					<br>
+					<em>
+						Arts and Humanities(Dip) </em>
+				</button>
 			</div>
 		</div>
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm">
 				<div id="CodeYourFuture">
 					<h4>
@@ -100,7 +142,7 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- <div class="row">
 			<div class="col-sm">
 				<div id="udacity">
@@ -118,59 +160,184 @@
 				</div>
 			</div>
 		</div> -->
+
+	</div>
+	<div class="container third-section">
+		<div class="row text-center">
+			<div class="col-sm">
+				<h3>WORK EXPERIENCE</h3>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-sm">
-				<button type="button" class="btn btn-lg btn-outline-light btn-block">Work Experience</button>
+				<button type="button" class="btn btn-lg btn-outline-light btn-block">Elite Care
+					<br>
+					<em>
+						Healthcare Assistant </em>
+				</button>
 			</div>
 			<div class="col-sm">
-				<button type="button" class="btn btn-outline-light btn-lg btn-block">Volunteering Experience</button>
+				<button type="button" class="btn btn-lg btn-outline-light btn-block">NHS Lothian
+					<br>
+					<em>
+						Nursing Assistant </em>
+				</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-lg btn-outline-light btn-block">Explore Learning
+					<br>
+					<em>
+						Maths and English Tutor </em>
+				</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-lg btn-outline-light btn-block">The Action Group
+					<br>
+					<em>
+						Support Worker </em>
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<button type="button" class="btn btn-lg btn-outline-light btn-block">Starbucks Coffee Shop
+					<br>
+					<em>
+						Barista </em>
+				</button>
 			</div>
 		</div>
 	</div>
-	<div class="container third-section">
-		<div class="row">
-			<div class="aboutMe">
-				<h3>NONE-TECHNOLOGY RELATED
-					<br> Education, Qualification and Achievement</h3>
+	</div>
+	<div class="container fourth-section">
+		<div class="row text-center">
+			<div class="col-sm">
+				<h3>ACHIEVEMENT</h3>
 			</div>
 		</div>
-		<!-- <div class="container"> -->
 		<div class="row">
 			<div class="col-sm">
-				<button type="button" class="btn btn-lg btn-outline-light btn-block">University of Edinburgh</button>
-				<!-- <ul>
-					<li>
-						(Humanities and Social Science)(BA)
-					</li>
-					<li>
-						(Global Citizenship Award)
-					</li>
-				</ul> -->
+				<button type="button" class="btn btn-outline-light btn-lg btn-block"> University of Edinburgh
+					<br>
+					<em>
+						Global Citizenship (Award) </em>
+				</button>
 			</div>
 			<div class="col-sm">
-				<button type="button" class="btn btn-outline-light btn-lg btn-block">Geniver University (Scholarship)</button>
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Udacity (Scholarship)
+					<br>
+					<em>
+						Google Developer Challenge </em>
+				</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Geniver University (Scholarship)
+					<br>
+					<em>
+						Children at the Heart of Human Rights </em>
+				</button>
 				<!-- <p>(Children at the Heart of Human Rights)</p> -->
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm">
-				<button type="button" class="btn btn-outline-light btn-lg btn-block">Ritsumeikan Univeristy (Scholarship)</button>
-			</div>
-			<div class="col-sm">
-				<button type="button" class="btn btn-outline-light btn-lg btn-block">Newbattle Abbey College</button>
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Ritsumeikan Univeristy (Scholarship)
+					<br>
+					<em>
+						Japanese Language and Culture </em>
+				</button>
 			</div>
 		</div>
-		<!-- <div class="container"> -->
+	</div>
+
+
+	<div class="container fifth-section">
+		<div class="row text-center">
+			<div class="col-sm">
+				<h3>PROJECTS</h3>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-sm">
-				<button type="button" class="btn btn-lg btn-outline-light btn-block">Work Experience</button>
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
 			</div>
 			<div class="col-sm">
-				<button type="button" class="btn btn-outline-light btn-lg btn-block">Volunteering Experience</button>
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
 			</div>
 		</div>
-		<!-- </div> -->
-		<!-- <div class="container"> -->
+		<div class="row">
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Add Examples</button>
+			</div>
+		</div>
+	</div>
+	<div class="container sixth-section">
+		<div class="row text-center">
+			<div class="col-sm">
+				<h3>VOLUNTEERING EXPERIENCE</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">CodeYourFuture
+					<br>
+					<em>
+						Mentor </em>
+				</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">JP Morgan
+					<br>
+					<em>
+						Code for Good (Hackathon) </em>
+				</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Coder Dojo
+					<br>
+					<em>
+						Mentor </em>
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Product Forge
+					<br>
+					<em>
+						Generation Rent Product Forge (Hackathon) </em>
+				</button>
+			</div>
+			<div class="col-sm">
+				<button type="button" class="btn btn-outline-light btn-lg btn-block">Myanmar Extensive Reading Program
+					<br>
+					<em>
+						Media Officer </em>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="container seventh-section">
+		<div class="row text-center">
+			<div class="col-sm">
+				<h3>ADDITIONAL INFORMATION</h3>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-sm">
 				<button type="button" class="btn btn-lg btn-outline-light btn-block">Languages</button>
@@ -178,35 +345,59 @@
 			<div class="col-sm">
 				<button type="button" class="btn btn-outline-light btn-lg btn-block">Additational Information</button>
 				<!-- <p>I enjoy travelling to experience different cultures and meeting new people. I keep myself fit through going to the gym
-					and swimming. I also enjoy music, singing and playing guitar and piano.</p> -->
+							and swimming. I also enjoy music, singing and playing guitar and piano.</p> -->
 			</div>
 			<div class="col-sm">
 				<button type="button" class="btn btn-outline-light btn-lg btn-block">References</button>
 			</div>
 		</div>
-		<!-- </div> -->
 	</div>
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm">
-					GET IN TOUCH
+					<h4>
+						GET IN TOUCH
+					</h4>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm">
-					wonmaungthein@gmail.com</div>
-				<div class="col-sm">
-					<!-- Social Media -->facebook
-					<br> Linkedin
-				</div>
-				<div class="col-sm">
-					<!-- Social Media -->07753375229
+				<div class="col-sm socialIcon">
+					<a href="https://github.com/wonmaungthein">
+						<i class="fab fa-github-square fa-3x">
+						</i>
+					</a>
+					<a href="https://www.linkedin.com/in/won-maung-thein-9776081b/">
+						<i class="fab fa-linkedin fa-3x">
+						</i>
+					</a>
+					<a href="mailto:wonmaungthein@gmail.com">
+						<i class="fas fa-envelope-square fa-3x">
+						</i>
+					</a>
+					<a href="tel:+07753375229">
+						<i class="fas fa-mobile-alt fa-3x">
+						</i>
+					</a>
+					<a href="https://twitter.com/wonmaungthein">
+						<i class="fab fa-twitter-square fa-3x">
+						</i>
+					</a>
+					<a href="https://www.facebook.com/win.maungthein">
+						<i class="fab fa-facebook-square fa-3x">
+						</i>
+					</a>
 				</div>
 			</div>
 		</div>
 		</div>
 	</footer>
+	<!-- <div class="container"> -->
+	<!-- <div class="container"> -->
+	<!-- </div> -->
+	<!-- <div class="container"> -->
+	<!-- </div> -->
+	</div>
 	<!-- 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	 crossorigin="anonymous"></script>
@@ -214,6 +405,7 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script> -->
+
 	<script>
 	</script>
 </body>
