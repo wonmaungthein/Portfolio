@@ -14,7 +14,7 @@
 }
 
 body {
-  background: url(bbg.jpg) no-repeat center center fixed;
+  background: url(dbg.jpg) no-repeat center center fixed;
   /* background-color: rgb(187, 61, 3); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -167,7 +167,7 @@ footer {
 }
 
 .fixed-top {
-  background-color: rgb(31, 29, 28);
+  background-color: rgb(3, 16, 92);
   /* border: yellow 2px solid; */
   /* justify-content: right; */
   /* display: flex; */
