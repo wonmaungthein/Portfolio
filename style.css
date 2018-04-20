@@ -225,3 +225,8 @@ footer {
   padding-bottom: 5%;
   /* background-color: rgb(38, 78, 206); */
 }
+
+#dialog {
+  /* background-color: orangered; */
+  /* width: 350px !important; */
+}

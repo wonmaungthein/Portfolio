@@ -17,7 +17,9 @@
 	 crossorigin="anonymous">
 	<title>My Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -41,7 +43,6 @@
 	</nav>
 	<div class="container">
 	</div>
-
 	<div class="aboutMe">
 		<img class="logo" src="me.jpg" alt "myphoto"/>
 		<h2>Won Maung Thein</h2>
@@ -101,12 +102,21 @@
 		</div>
 		<div class="row ">
 			<div class="col-sm">
-				<button type="button" class="btn btn-lg btn-outline-light btn-block">University of Edinburgh
+				<button id="opener" type="button" class="btn btn-lg btn-outline-light btn-block">University of Edinburgh
 					<br>
 					<em>
 						Humanities and Social Science(BA)
 					</em>
 				</button>
+			</div>
+			<div id="dialog">
+				<p>
+					<em>
+						SEPTEMBER 2011 - JUNE 2015
+					</em>
+					<br> Social Policy, Sociology, Community Education, Politics, International Relations, Healthy Communities and Japanese
+					Language, gaining knowledge on the effects of policy changes on individuals and communities as well as ways of providing
+					positive support to enable change.</p>
 			</div>
 			<div class="col-sm">
 				<button type="button" class="btn btn-lg btn-outline-light btn-block codeYourFuture" onclick="myFunction()">CodeYourFuture
@@ -406,7 +416,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script> -->
 
+
+	<script type="text/javascript" src="main.js"></script>
+
 	<script>
+
 	</script>
 </body>
 
