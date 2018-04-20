@@ -12,8 +12,8 @@ $(function() {
   $(newFunction()).dialog({
     autoOpen: false,
     show: {
-      effect: "blind"
-      // duration: 1000
+      effect: "blind",
+      duration: 1000
     },
     hide: {
       effect: "explode",
@@ -28,3 +28,7 @@ $(function() {
 function newFunction() {
   return "#dialog";
 }
+
+$("#myModal").on("shown.bs.modal", function() {
+  $("#myInput").trigger("focus");
+});
