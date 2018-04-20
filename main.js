@@ -9,7 +9,7 @@ function myFunction() {
 }
 
 $(function() {
-  $("#dialog").dialog({
+  $(newFunction()).dialog({
     autoOpen: false,
     show: {
       effect: "blind"
@@ -25,3 +25,6 @@ $(function() {
     $("#dialog").dialog("open");
   });
 });
+function newFunction() {
+  return "#dialog";
+}
