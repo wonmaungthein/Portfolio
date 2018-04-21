@@ -266,5 +266,15 @@ footer {
 
 .nav-row {
   display: flex;
-  /* border: sandybrown solid 2px; */
+}
+
+.modal-footer .btn {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  height: 60px !important;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center !important;
 }
