@@ -26,11 +26,57 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
 	 crossorigin="anonymous"></script>
+	<script>$('body').scrollspy({ target: '#navbar-example', offset: 10 })</script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
 	 crossorigin="anonymous">
 </head>
 
-<body>
+
+<body data-spy="scroll" data-target="#navbarMenue">
+	<nav class="navbar navbar-default navbar-expand-sm navbar-light  fixed-top">
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenue">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-center" role="navigation" id="navbarMenue">
+			<ul class="navbar-nav justify-content-center  nav-pills ">
+				<li class="nav-item ">
+					<a href="#first-section" class="nav-link nav-item"> About
+					</a>
+				</li>
+				<li class="nav-item ">
+					<a href="#second-section" class="nav-link">Education</a>
+				</li>
+				<li class="nav-item ">
+					<a href="#third-section " class="nav-link">Employment History</a>
+				</li>
+				<li class="nav-item ">
+					<a href="#fourth-section " class="nav-link"> Achievement
+					</a>
+				</li>
+				<li class="nav-item ">
+					<a href="#fifth-section " class="nav-link"> Projects</a>
+				</li>
+				<li class="nav-item ">
+					<a href="#sixth-section " class="nav-link"> Volunteering Experience
+					</a>
+				</li>
+				<li class="nav-item ">
+					<a href="#seventh-section " class="nav-link"> Additional Information
+					</a>
+				</li>
+				<li class="nav-item ">
+					<a href="#eigth-section " class="nav-link"> Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+
+
+
+	<!-- 	
 	<header>
 		<nav class="navbar navbar-default fixed-top">
 			<nav class="navbar navbar-expand-lg navbar-light ">
@@ -81,7 +127,7 @@
 				</div>
 			</nav>
 		</nav>
-	</header>
+	</header> -->
 	<div class="allSections">
 		<section id="first-section">
 			<div class="container">
