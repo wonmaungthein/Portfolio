@@ -68,9 +68,17 @@
   /* background-color: orchid; */
   /* border: brown solid 2px; */
 }
-/* 
-.col-sm {
+
+/* .profile-Skillscontainer {
   border: slateblue 2px solid;
+}
+
+.profile-Skillscontainer .col-sm {
+  border: rgb(129, 250, 16) 2px solid;
+} */
+
+/* .Profile {
+  border: rgb(129, 250, 16) 2px solid;
 } */
 
 .aboutMe {
