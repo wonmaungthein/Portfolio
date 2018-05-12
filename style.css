@@ -296,3 +296,8 @@ footer {
   background-repeat: no-repeat;
   /* border: 2px solid limegreen; */
 }
+
+.allSections {
+  border: #b4261c 4px solid;
+  /* margin-top: 3rem; */
+}
