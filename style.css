@@ -1,10 +1,7 @@
 #first-section {
-  padding-top: 2%;
-  margin-top: 5%;
+  padding-top: 3%;
+  margin-top: 8%;
   margin-bottom: 5%;
-  /* height: 800px; */
-  /* background-color: pink; */
-  /* border: 2px solid blue; */
 }
 
 #second-section {
@@ -84,7 +81,7 @@
 .aboutMe {
   text-align: center;
   color: white;
-  margin-top: 7%;
+  /* margin-top: 7%; */
   padding-left: 2%;
   padding-right: 2%;
   width: 100%;
@@ -254,14 +251,15 @@ footer {
 
 .socialIcon {
   /* border: yellow solid 2px; */
-  padding: 20px;
-  /* display: inline; */
+  /* padding: 20px; */
+  /* display: inline;
+   */
+  /* display: flex;
+  align-content: space-around; */
+  /* justify-content: center; */
 }
 /* 
-#dialog {
-  background-color: rgb(245, 193, 82);
-  border: solid 2px blue;
-} */
+
 
 .container-fluid.hi {
   /* border: orangered 2px solid; */
@@ -295,9 +293,4 @@ footer {
   justify-content: center;
   background-repeat: no-repeat;
   /* border: 2px solid limegreen; */
-}
-
-.allSections {
-  /* border: #b4261c 4px solid; */
-  /* margin-top: 3rem; */
 }
