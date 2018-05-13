@@ -1,8 +1,9 @@
 #first-section {
-  padding-top: 3%;
+  padding-top: 5%;
   margin-top: 8%;
   margin-bottom: 5%;
 }
+
 
 #second-section {
   /* background-color: rgb(44, 13, 182); */
@@ -66,6 +67,7 @@
   /* border: brown solid 2px; */
 }
 
+
 /* .profile-Skillscontainer {
   border: slateblue 2px solid;
 }
@@ -117,18 +119,6 @@ body {
   height: 120px;
 }
 
-.first-section,
-.second-section,
-.third-section,
-.fourth-section,
-.fifth-section,
-.sixth-section,
-.seventh-section {
-  /* margin-top: 2%;
-  margin-bottom: 2%; */
-  /* background: burlywood; */
-}
-
 /* gap between rows */
 .row {
   margin: 2%;
@@ -136,100 +126,6 @@ body {
   padding-bottom: 1%;
 }
 
-.container {
-  /* border: solid gold 2px; */
-}
-
-footer {
-  /* border: orangered 2px solid; */
-  /* background: rgb(245, 3, 3); */
-  margin-top: 2%;
-  padding-bottom: 3%;
-  /* background-color: rgb(238, 137, 22); */
-}
-
-#CodeYourFuture,
-#udacity {
-  width: 100%;
-  padding: 50px 25px;
-  text-align: center;
-  /* background-color: rgba(14, 219, 7, 0.555); */
-  margin-top: 20px;
-  color: white;
-}
-/* 
-#parent {
-  background: yellow;
-  color: blue;
-  size: 24px;
-  height: 5rem;
-  border: 2px solid black;
-} */
-
-/* //CSS from Wes */
-/* 
-.close {
-  background: none;
-  color: rgb(12, 11, 11);
-  border: 0;
-  border: 3px solid yellow;
-} */
-
-/* 
-.item__overlay {
-  background: rgb(167, 67, 67);
-  grid-column: 1/ -1;
-  grid-row: 1/-1;
-  position: relative;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  transform: translateY(100%);
-  transition: 0.2s;
-  border: 3px solid yellow;
-} */
-/* 
-
-.item__overlay button {
-  background: none;
-  border: 2px solid white;
-  color: white;
-  text-transform: uppercase;
-  background-color: yellow;
-  padding: 5px;
-  border: 3px solid yellow;
-} */
-/* 
-.item:hover .item__overlay {
-  transform: translate(0);
-}
-
-.overlay {
-  position: fixed;
-  background: rgba(19, 48, 87, 0.7);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: none;
-  z-index: 2;
-}
-
-.overlay.open {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-}
-
-.overlay-inner {
-  background: white;
-  width: 700px;
-  padding: 20px;
-}
-
-.overlay img {
-  width: 100%;
-} */
 
 #navbarSupportedContent {
   /* border: tomato 2px solid; */
