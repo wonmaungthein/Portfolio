@@ -190,3 +190,10 @@ body {
   background-repeat: no-repeat;
   /* border: 2px solid limegreen; */
 }
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}
